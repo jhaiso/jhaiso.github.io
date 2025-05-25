@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+
+*, *::before, *::after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/* ================== NAVBAR STYLES ================== */
+
+.logo {
+    width: 100px;
+}
+
+header {
+    position: absolute;
+    z-index: 9999;
+    padding: 0.5rem 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+header nav {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+
+.search a {
+    font-size: 1.05rem;
+    padding: 0 3rem;
+}
+
+.hamburger{
+    padding-left: 1.5rem;
+}
+
+.hamburger a {
+    padding: 0;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgb(115, 115, 115, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================== MAIN STYLES ================== */
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.bg-img{
+    position: absolute;
+    z-index: 1;
+    width: 2800px;
+    top: 2%;
+    left: 49%;
+    transform: translate(-50%, -50%)
+}
+
+.fog-7{
+    position: absolute;
+    z-index: 2;
+    width: 1900px;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%)
+}
+
+.mountain-10{
+    position: absolute;
+    z-index: 3;
+    width: 892px;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%)
+}
+
+.fog-6{
+    position: absolute;
+    z-index: 4;
+    width: 100vw;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.mountain-9{
+    position: absolute;
+    z-index: 5;
+    width: 600px;
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%, -50%)
+}
+
+.mountain-8{
+    position: absolute;
+    z-index: 6;
+    width: 810px;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%)
+}
+
+.fog-5{
+    position: absolute;
+    z-index: 7;
+    width: 450px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.mountain-7{
+    position: absolute;
+    z-index: 8;
+    width: 538px;
+    top: 65%;
+    left: 68%;
+    transform: translate(-50%, -50%)
+}
+
+.text {
+    position: absolute;
+    z-index: 9;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.text h2 {
+    font-weight: 100;
+    font-size: 6.5rem;
+    line-height: 0.88;
+}
+
+.text h1 {
+    font-weight: 800;
+    font-size: 8rem;
+    line-height: 0.88;
+}
+
+.mountain-6 {
+    position: absolute;
+    z-index: 10;
+    width: 408px;
+    top: 55%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.fog-4 {
+    position: absolute;
+    z-index: 11;
+    width: 590px;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.mountain-5 {
+    position: absolute;
+    z-index: 12;
+    width: 625px;
+    top: 80%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.fog-3 {
+    position: absolute;
+    z-index: 13;
+    width: 100vw;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mountain-4 {
+    position: absolute;
+    z-index: 14;
+    width: 780px;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.mountain-3 {
+    position: absolute;
+    z-index: 15;
+    width: 538px;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.fog-2 {
+    position: absolute;
+    z-index: 16;
+    width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mountain-2 {
+    position: absolute;
+    z-index: 17;
+    width: 700px;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.mountain-1 {
+    position: absolute;
+    z-index: 18;
+    width: 538px;
+    top: 55%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+}
+
+.sun-rays {
+    position: absolute;
+    z-index: 19;
+    top: 0;
+    right: 0;
+    width: 595px;
+}
+
+.black-shadow {
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.fog-1 {
+    position: absolute;
+    z-index: 21;
+    width: 100vw;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mountain-0 {
+    position: absolute;
+    z-index: 22;
+    width: 800px;
+    top: 65%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.vignette {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0.7));
+}
+
+/* ================== FOOTER STYLES ================== */
+
+footer {
+    position: absolute;
+    z-index: 9999;
+    padding: 0.5rem 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    padding-top: 0.5rem;
+    bottom: 0;
+    /* border-top: 1px solid rgb(255, 255, 255, 0.1); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+
+.github a, .linkedin a, .mail a{
+    font-size: 2rem;
+    padding: 0 3rem;
+}
