@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+
+*, *::before, *::after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+::selection {
+    background-color: #0b372dbb;
+}
+
+/* ================== NAVBAR STYLES ================== */
+
+.logo {
+    width: 100px;
+}
+
+header {
+    position: absolute;
+    z-index: 9999;
+    padding: 0.5rem 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+header nav {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+
+.search a {
+    font-size: 1.05rem;
+    padding: 0 3rem;
+}
+
+.hamburger{
+    padding-left: 1.5rem;
+}
+
+.hamburger a {
+    padding: 0;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgb(115, 115, 115, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button{
+    transition: all 0.25s ease-in-out;
+}
+
+.nav-button:hover {
+    transition: all 0.25s ease-in-out;
+    transform: scale(1.10);
+}
+
+.nav-button-text:hover{
+    font-style: italic;
+}
+
+/* ================== MAIN STYLES ================== */
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
