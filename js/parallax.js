@@ -35,8 +35,12 @@ window.addEventListener("mousemove", (e) => {
 });
 
 /* ================ GSAP ANIMATION ====================== */
-
 let timeline = gsap.timeline();
+const video = document.getElementById('intro-video');
+
+video.onended = () => {
+
+document.getElementById("intro-video-container").remove();
 
 Array.from(parallax_el)
     .filter(el => !el.classList.contains("text"))
@@ -74,4 +78,4 @@ timeline.from(
     },
     "3"
 );
-
+}
