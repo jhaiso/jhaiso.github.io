@@ -99,6 +99,20 @@ header ul a {
     align-items: center;
 }
 
+.nav-button{
+    transition: all 0.25s ease-in-out;
+}
+
+.nav-button:hover {
+    transition: all 0.25s ease-in-out;
+    transform: scale(1.10);
+}
+
+.nav-button-text:hover{
+    font-style: italic;
+}
+
+
 /* ================== MAIN STYLES ================== */
 main {
     position: relative;
@@ -229,7 +243,7 @@ main {
 .mountain-4 {
     position: absolute;
     z-index: 14;
-    width: 900px;
+    width: 57%;
     top: 70%;
     left: 64%;
 }
@@ -253,7 +267,7 @@ main {
 .mountain-2 {
     position: absolute;
     z-index: 17;
-    width: 700px;
+    width: 44%;
     top: 70%;
     left: 30%;
 }
