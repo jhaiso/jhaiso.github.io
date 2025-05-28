@@ -345,11 +345,15 @@ main {
 #about-description {
     position: absolute;
     color: #fff;
-    width: 42vw;
+    width: 45vw;
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
     left: 45%;
+    padding: 1rem;
+
+    background-color: #061624;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
     
     font-weight: 400;
     font-size: 1.4rem;
