@@ -85,7 +85,6 @@ gsap.from("#profile-body", {
         start: () => `top ${0.75 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.35 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
 
@@ -99,7 +98,6 @@ gsap.from("#about-description", {
         start: () => `top ${0.75 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.35 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
 
@@ -116,7 +114,6 @@ gsap.from("#boeing", {
         start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
 
@@ -131,7 +128,6 @@ gsap.from(".plane", {
         start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
 
@@ -144,7 +140,6 @@ gsap.from(".boeing", {
         start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
 
@@ -158,7 +153,6 @@ gsap.from("#aristocrat", {
         start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
 
@@ -172,7 +166,6 @@ gsap.from(".bull-back", {
         start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
 
@@ -186,7 +179,6 @@ gsap.from(".bull-head", {
         start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
 
@@ -200,7 +192,6 @@ gsap.from("#musc", {
         start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
 
@@ -214,7 +205,6 @@ gsap.from(".musc", {
         start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
 
@@ -227,6 +217,5 @@ gsap.from(".shapes", {
         start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
         end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
         scrub: 3,
-        markers: true
     }
 });
