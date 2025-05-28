@@ -4,34 +4,19 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: "Poppins", sans-serif;
+    background-color: #061624;
     visibility: hidden;
+    overflow-x: hidden;
 }
 
 ::selection {
     background-color: #0b372dbb;
-}
-
-/* ================== INTRO/LOADING STYLES ================== */
-#intro-video-container{
-    position: absolute;
-    z-index: 100000;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-
-    display: flex;
-    justify-content: center;
-}
-
-#intro-video{
-    z-index: 100000;
-    max-width: 100vw;
-    max-height: 100vh;
-    
 }
 
 /* ================== NAVBAR STYLES ================== */
@@ -41,7 +26,7 @@ body{
 }
 
 header {
-    position: absolute;
+    position: sticky;
     z-index: 9999;
     padding: 0.5rem 0;
     top: 0;
@@ -116,9 +101,30 @@ header ul a {
 /* ================== MAIN STYLES ================== */
 main {
     position: relative;
+    width: 100vw;
+    height: 520vh;
+    overflow: hidden;
+    transform: translateY(-4rem);
+    background-color: rgb(6, 21, 35);
+}
+
+#cover {
+    position: relative;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+}
+
+#cover::after {
+    content: "";
+    position: absolute;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, #06152300, rgba(6, 21, 35, 1) 99%);
+    width: 100vw;
+    height: 100vh;
 }
 
 .bg-img{
@@ -188,7 +194,7 @@ main {
 .text {
     position: absolute;
     z-index: 9;
-    top: 38%;
+    top: 35%;
     left: 50%;
     text-align: center;
     text-transform: uppercase;
@@ -243,7 +249,7 @@ main {
 .mountain-4 {
     position: absolute;
     z-index: 14;
-    width: 57%;
+    width: 50%;
     top: 70%;
     left: 64%;
 }
@@ -267,7 +273,7 @@ main {
 .mountain-2 {
     position: absolute;
     z-index: 17;
-    width: 44%;
+    width: 40%;
     top: 70%;
     left: 30%;
 }
@@ -316,6 +322,53 @@ main {
     pointer-events: none;
 }
 
+/* ================== ABOUT STYLES ==============*/
+#about {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#profile-body {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22vw;
+    left: 10%;
+    border: 3px solid #fff;
+    /* border-radius: 10px; */
+    padding-top: 20px;
+    padding: 20px 10px 0 10px;
+}
+
+#about-description {
+    position: absolute;
+    color: #fff;
+    width: 42vw;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 45%;
+    
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+#about-description span{
+    font-style: italic;
+}
+
+/* ================== CONTINUE BUTTON STYLES ==============*/
+.continue-button {
+    position: absolute;
+    z-index: 100000000000;
+    top: 70%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
 /* ================== PARALLAX STYLES ==================*/
 .parallax {
     pointer-events: none;
@@ -326,7 +379,7 @@ main {
 /* ================== FOOTER STYLES ================== */
 
 footer {
-    position: absolute;
+    position: sticky;
     z-index: 9999;
     padding: 0.5rem 0;
     bottom: 0;

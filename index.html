@@ -15,26 +15,20 @@
     
   </head>
   <body>
-    <div id="intro-video-container">
-      <video id="intro-video" autoplay muted>
-        <source src="img/test.mp4" type="video/mp4"/>
-        Your browser does not support the video tag.
-      </video>
-    </div>
     <header class="hide">
       <nav>
-        <a href="/">
+        <a href="#cover">
           <img src="img/logo.png" alt="jhaiso" class="logo" />
         </a>
         <ul>
           <li>
-            <a class="nav-button-text" href="/about.html">About</a>
+            <a class="nav-button-text" href="#about">About</a>
           </li>
           <li>
-            <a class="nav-button-text" href="/projects.html">Projects</a>
+            <a class="nav-button-text" href="#projects">Projects</a>
           </li>
           <li>
-            <a class="nav-button-text" href="/work_experience.html">Work Experience</a>
+            <a class="nav-button-text" href="#work-experience">Work Experience</a>
           </li>
           <li class="hamburger">
             <a class="nav-button" href="#">
@@ -45,6 +39,7 @@
       </nav>
     </header>
     <main>
+      <div id="cover">
         <div class="vignette hide"></div>
         <img src="img/background.png" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0"  data-distance="-200" class="parallax bg-img">
         <img src="img/fog_7.png" data-speedx="0.27" data-speedy="0.32" data-speedz="0" data-rotation="0" data-distance="850" class="parallax fog-7">
@@ -69,6 +64,13 @@
         <img src="img/mountain_1.png" data-speedx="0.027" data-speedy="0.018" data-speedz="0.53" data-rotation="0.2" data-distance="4000" class="parallax mountain-1">
         <img src="img/black_shadow.png" class="black-shadow hide">
         <img src="img/fog_1.png" data-speedx="0.12" data-speedy="0.01" data-speedz="0" data-rotation="0" data-distance="4200" class="parallax fog-1">
+      </div>
+      <div id="about">
+        <img id="profile-body" src="/img/about/profile_body.png">
+        <p id="about-description">
+          I’m Jeffrey, a sophomore at Dartmouth College studying Computer Science and Mathematics. I am interested in <span>algorithms</span>, <span>opmtimization</span>, and <span>machine learning</span> (and occasionally application development).
+        </p>
+      </div>
     </main>
     <footer class="hide">
       <nav>
