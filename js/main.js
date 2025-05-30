@@ -88,6 +88,45 @@ gsap.from("#profile-body", {
     }
 });
 
+gsap.from("#about-subhead", {
+    opacity: 0,
+    x: 200,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#profile-body",
+        start: () => `top ${0.75 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.35 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#about-title", {
+    opacity: 0,
+    x: 300,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#profile-body",
+        start: () => `top ${0.75 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.35 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#tower", {
+    opacity: 0,
+    y: -200,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#profile-body",
+        start: () => `top ${0.75 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.35 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
 
 gsap.from("#about-description", {
     opacity: 0,
@@ -145,6 +184,20 @@ gsap.from(".boeing", {
 
 gsap.from("#aristocrat", {
     x: 300,
+    opacity: 0,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#aristocrat",
+        start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#work-title", {
+    scale: 8,
+    y: -300,
     opacity: 0,
     ease: "power3.inOut",
     duration: 5,

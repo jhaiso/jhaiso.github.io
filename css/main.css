@@ -102,7 +102,6 @@ header ul a {
 main {
     position: relative;
     width: 100vw;
-    height: 520vh;
     overflow: hidden;
     transform: translateY(-4rem);
     background-color: rgb(6, 21, 35);
@@ -332,31 +331,76 @@ main {
 
 #profile-body {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     width: 22vw;
-    left: 10%;
+    left: 15%;
     border: 3px solid #fff;
     /* border-radius: 10px; */
     padding-top: 20px;
     padding: 20px 10px 0 10px;
 }
 
+#dartmouth {
+    position: absolute;
+    z-index: -1;
+    width: 80vh;
+
+    left: 43%;
+    top: 30%;
+}
+
+#tower {
+    position: absolute;
+    z-index: -1;
+    width: 12vw;
+
+    left: 43%;
+    top: 15%;
+}
+
+#about-title {
+    position:absolute;
+    left: 25.6vw;
+    top: 31.8%;
+
+    rotate: 90deg;  
+    color: #fff;
+
+    font-weight: 800;
+    font-size: 8vw;
+}
+
+#about-subhead {
+    position: absolute;
+    color: #fff;
+    width: 43vw;
+    top: 22%;
+    left: 45%;
+    padding-left: 10px;
+
+    font-weight: 400;
+    font-size: 2rem;
+
+    /* background-color: #061624; */
+}
+
 #about-description {
     position: absolute;
     color: #fff;
-    width: 45vw;
+    width: 25vw;
     text-align: center;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
-    left: 45%;
+    left: 50%;
     padding: 1rem;
 
-    background-color: #061624;
-    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+    /* background-color: #061624; */
+    /* box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3); */
     
-    font-weight: 400;
+    font-weight: 100;
     font-size: 1.4rem;
+    text-align: left;
 }
 
 #about-description span{
@@ -371,10 +415,21 @@ main {
     overflow: hidden;
 }
 
+#work-title {
+    position: absolute;
+    font-weight: 800;
+    font-size: .85rem;
+
+    rotate: 90deg;
+    top: 43%;
+    left: 52.5%;
+
+    color: #fff;
+}
+
 .bull-back {
     position: absolute;
     z-index: 1;
-    width: 22.6vh;
     height: 43.3vh;
     top: 24.5%;
     left: 44%;
