@@ -415,16 +415,16 @@ main {
     overflow: hidden;
 }
 
-#work-title {
+#work-experience-title {
     position: absolute;
-    font-weight: 800;
-    font-size: .85rem;
 
-    rotate: 90deg;
-    top: 43%;
-    left: 52.5%;
+    top: 2%;
+    left: 48%;
+    transform: translateX(-50%);
 
-    color: #fff;
+    font-weight: 100;
+    font-size: 4rem;
+    color: #ffffff;
 }
 
 .bull-back {
