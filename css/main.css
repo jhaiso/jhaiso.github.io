@@ -336,7 +336,6 @@ main {
     width: 22vw;
     left: 15%;
     border: 3px solid #fff;
-    /* border-radius: 10px; */
     padding-top: 20px;
     padding: 20px 10px 0 10px;
 }
@@ -375,14 +374,12 @@ main {
     position: absolute;
     color: #fff;
     width: 43vw;
-    top: 22%;
+    top: 27%;
     left: 45%;
     padding-left: 10px;
 
     font-weight: 400;
-    font-size: 2rem;
-
-    /* background-color: #061624; */
+    font-size: 2.5rem;
 }
 
 #about-description {
@@ -390,14 +387,11 @@ main {
     color: #fff;
     width: 25vw;
     text-align: center;
-    top: 45%;
+    top: 48%;
     transform: translateY(-50%);
     left: 50%;
     padding: 1rem;
 
-    /* background-color: #061624; */
-    /* box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3); */
-    
     font-weight: 100;
     font-size: 1.4rem;
     text-align: left;
@@ -418,7 +412,7 @@ main {
 #work-experience-title {
     position: absolute;
 
-    top: 2%;
+    top: 10%;
     left: 48%;
     transform: translateX(-50%);
 
@@ -431,7 +425,7 @@ main {
     position: absolute;
     z-index: 1;
     height: 43.3vh;
-    top: 24.5%;
+    top: 33.5%;
     left: 44%;
 }
 
@@ -440,7 +434,7 @@ main {
     z-index: 2;
     width: 17.1vh;
     height: 60.4vh;
-    top: 16%;
+    top: 24%;
     left: 41%;
 }
 
@@ -449,7 +443,7 @@ main {
     z-index: 3;
     width: 49vh;
     height: 26.9vh;
-    top: 31.7%;
+    top: 40.7%;
     left: 28.5%;
 }
 
@@ -458,7 +452,7 @@ main {
     z-index: 4;
     width: 42.6vh;
     height: 35.1vh;
-    top: 28.9%;
+    top: 37.9%;
     left: 38.3%;
 }
 
@@ -467,7 +461,7 @@ main {
     z-index: 5;
     width: 22.6vh;
     height: 22.6vh;
-    top: 26.1%;
+    top: 35.1%;
     left: 44%;
 }
 
@@ -476,7 +470,7 @@ main {
     z-index: 6;
     width:45.8vh;
     height: 53.1vh;
-    top: 16.3%;
+    top: 25.3%;
     left: 36.4%;
 }
 
@@ -507,19 +501,19 @@ main {
 
 #aristocrat {
     position: absolute;
-    top: 20%;
-    left: 65%;
+    top: 29%;
+    left: 62%;
 }
 
 #musc {
     position: absolute;
-    top: 70%;
-    left: 65%;
+    top: 79%;
+    left: 62%;
 }
 
 #boeing {
     position: absolute;
-    top: 50%;
+    top: 59%;
     left: 13%;
     transform: translateY(-50%);
 }

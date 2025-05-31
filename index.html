@@ -11,8 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/main.css">
-    
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <header class="hide">
@@ -25,10 +24,12 @@
             <a class="nav-button-text" href="#about">About</a>
           </li>
           <li>
-            <a class="nav-button-text" href="#projects">Projects</a>
+            <a class="nav-button-text" href="#work-experience"
+              >Work Experience</a
+            >
           </li>
           <li>
-            <a class="nav-button-text" href="#work-experience">Work Experience</a>
+            <a class="nav-button-text" href="#projects">Projects</a>
           </li>
           <li class="hamburger">
             <a class="nav-button" href="#">
@@ -41,64 +42,218 @@
     <main>
       <div id="cover">
         <div class="vignette hide"></div>
-        <img src="img/background.png" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0"  data-distance="-200" class="parallax bg-img">
-        <img src="img/fog_7.png" data-speedx="0.27" data-speedy="0.32" data-speedz="0" data-rotation="0" data-distance="850" class="parallax fog-7">
-        <img src="img/mountain_10.png" data-speedx="0.195" data-speedy="0.305" data-speedz="0" data-rotation="0" data-distance="1100" class="parallax mountain-10">
-        <img src="img/fog_6.png" data-speedx="0.25" data-speedy="0.28" data-speedz="0" data-rotation="0" data-distance="1400" class="parallax fog-6">
-        <img src="img/mountain_9.png" data-speedx="0.125" data-speedy="0.155" data-speedz="0.15" data-rotation="0.2" data-distance="1700" class="parallax mountain-9">
-        <img src="img/mountain_8.png" data-speedx="0.1" data-speedy="0.11" data-speedz="0" data-rotation="0.02" data-distance="1800" class="parallax mountain-8">
-        <img src="img/fog_5.png" data-speedx="0.16" data-speedy="0.105" data-speedz="0" data-rotation="0" data-distance="1900" class="parallax fog-5">
-        <img src="img/mountain_7.png" data-speedx="0.1" data-speedy="0.1" data-speedz="0" data-rotation="0.09" data-distance="2000" class="parallax mountain-7">
-        <div data-speedx="0.07" data-speedy="0.07" data-speedz="0" data-rotation="0.11" data-distance="0" class="parallax text">
-            <h2>Hey, I'm </h2>
-            <h1>Jeffrey!</h1>
+        <img
+          src="img/background.png"
+          data-speedx="0.3"
+          data-speedy="0.38"
+          data-speedz="0"
+          data-rotation="0"
+          data-distance="-200"
+          class="parallax bg-img"
+        />
+        <img
+          src="img/fog_7.png"
+          data-speedx="0.27"
+          data-speedy="0.32"
+          data-speedz="0"
+          data-rotation="0"
+          data-distance="850"
+          class="parallax fog-7"
+        />
+        <img
+          src="img/mountain_10.png"
+          data-speedx="0.195"
+          data-speedy="0.305"
+          data-speedz="0"
+          data-rotation="0"
+          data-distance="1100"
+          class="parallax mountain-10"
+        />
+        <img
+          src="img/fog_6.png"
+          data-speedx="0.25"
+          data-speedy="0.28"
+          data-speedz="0"
+          data-rotation="0"
+          data-distance="1400"
+          class="parallax fog-6"
+        />
+        <img
+          src="img/mountain_9.png"
+          data-speedx="0.125"
+          data-speedy="0.155"
+          data-speedz="0.15"
+          data-rotation="0.2"
+          data-distance="1700"
+          class="parallax mountain-9"
+        />
+        <img
+          src="img/mountain_8.png"
+          data-speedx="0.1"
+          data-speedy="0.11"
+          data-speedz="0"
+          data-rotation="0.02"
+          data-distance="1800"
+          class="parallax mountain-8"
+        />
+        <img
+          src="img/fog_5.png"
+          data-speedx="0.16"
+          data-speedy="0.105"
+          data-speedz="0"
+          data-rotation="0"
+          data-distance="1900"
+          class="parallax fog-5"
+        />
+        <img
+          src="img/mountain_7.png"
+          data-speedx="0.1"
+          data-speedy="0.1"
+          data-speedz="0"
+          data-rotation="0.09"
+          data-distance="2000"
+          class="parallax mountain-7"
+        />
+        <div
+          data-speedx="0.07"
+          data-speedy="0.07"
+          data-speedz="0"
+          data-rotation="0.11"
+          data-distance="0"
+          class="parallax text"
+        >
+          <h2>Hey, I'm</h2>
+          <h1>Jeffrey!</h1>
         </div>
-        <img src="img/mountain_6.png" data-speedx="0.065" data-speedy="0.05" data-speedz="0.05" data-rotation="0.12" data-distance="2300" class="parallax mountain-6">
-        <img src="img/fog_4.png" data-speedx="0.135" data-speedy="0.3" data-speedz="0" data-rotation="0" data-distance="2400" class="parallax fog-4">
-        <img src="img/mountain_5.png" data-speedx="0.07" data-speedy="0.024" data-speedz="0.13" data-rotation="0.1" data-distance="2550" class="parallax mountain-5">
-        <img src="img/fog_3.png" data-speedx="0.11" data-speedy="0.018" data-speedz="0" data-rotation="0" data-distance="2800" class="parallax fog-3">
-        <img src="img/mountain_4.png" data-speedx="0.059" data-speedy="0.024" data-speedz="0.35" data-rotation="0.14" data-distance="3200" class="parallax mountain-4">
-        <img src="img/mountain_3.png" data-speedx="0.04" data-speedy="0.018" data-speedz="0.32" data-rotation="0.05" data-distance="3400" class="parallax mountain-3">
-        <img src="img/fog_2.png" data-speedx="0.15" data-speedy="0.0115" data-speedz="0" data-rotation="0" data-distance="3600" class="parallax fog-2">
-        <img src="img/mountain_2.png" data-speedx="0.0235" data-speedy="0.013" data-speedz="0.42" data-rotation="0.15" data-distance="3800" class="parallax mountain-2">
-        <img src="img/mountain_1.png" data-speedx="0.027" data-speedy="0.018" data-speedz="0.53" data-rotation="0.2" data-distance="4000" class="parallax mountain-1">
-        <img src="img/black_shadow.png" class="black-shadow hide">
-        <img src="img/fog_1.png" data-speedx="0.12" data-speedy="0.01" data-speedz="0" data-rotation="0" data-distance="4200" class="parallax fog-1">
+        <img
+          src="img/mountain_6.png"
+          data-speedx="0.065"
+          data-speedy="0.05"
+          data-speedz="0.05"
+          data-rotation="0.12"
+          data-distance="2300"
+          class="parallax mountain-6"
+        />
+        <img
+          src="img/fog_4.png"
+          data-speedx="0.135"
+          data-speedy="0.3"
+          data-speedz="0"
+          data-rotation="0"
+          data-distance="2400"
+          class="parallax fog-4"
+        />
+        <img
+          src="img/mountain_5.png"
+          data-speedx="0.07"
+          data-speedy="0.024"
+          data-speedz="0.13"
+          data-rotation="0.1"
+          data-distance="2550"
+          class="parallax mountain-5"
+        />
+        <img
+          src="img/fog_3.png"
+          data-speedx="0.11"
+          data-speedy="0.018"
+          data-speedz="0"
+          data-rotation="0"
+          data-distance="2800"
+          class="parallax fog-3"
+        />
+        <img
+          src="img/mountain_4.png"
+          data-speedx="0.059"
+          data-speedy="0.024"
+          data-speedz="0.35"
+          data-rotation="0.14"
+          data-distance="3200"
+          class="parallax mountain-4"
+        />
+        <img
+          src="img/mountain_3.png"
+          data-speedx="0.04"
+          data-speedy="0.018"
+          data-speedz="0.32"
+          data-rotation="0.05"
+          data-distance="3400"
+          class="parallax mountain-3"
+        />
+        <img
+          src="img/fog_2.png"
+          data-speedx="0.15"
+          data-speedy="0.0115"
+          data-speedz="0"
+          data-rotation="0"
+          data-distance="3600"
+          class="parallax fog-2"
+        />
+        <img
+          src="img/mountain_2.png"
+          data-speedx="0.0235"
+          data-speedy="0.013"
+          data-speedz="0.42"
+          data-rotation="0.15"
+          data-distance="3800"
+          class="parallax mountain-2"
+        />
+        <img
+          src="img/mountain_1.png"
+          data-speedx="0.027"
+          data-speedy="0.018"
+          data-speedz="0.53"
+          data-rotation="0.2"
+          data-distance="4000"
+          class="parallax mountain-1"
+        />
+        <img src="img/black_shadow.png" class="black-shadow hide" />
+        <img
+          src="img/fog_1.png"
+          data-speedx="0.12"
+          data-speedy="0.01"
+          data-speedz="0"
+          data-rotation="0"
+          data-distance="4200"
+          class="parallax fog-1"
+        />
       </div>
       <div id="about">
-        <img id="profile-body" src="/img/about/profile_body.png">
+        <img id="profile-body" src="/img/about/profile_body.png" />
         <h2 id="about-title">ABOUT</h2>
-        <img id="tower" src="img/about/tower.png">
+        <img id="tower" src="img/about/tower.png" />
         <h3 id="about-subhead">Dartmouth College | CS & Math</h3>
         <p id="about-description">
-          I’m Jeffrey, a sophomore at Dartmouth College studying Computer Science and Mathematics. I am interested in <span>algorithms</span>, <span>opmtimization</span>, and <span>machine learning</span> (and occasionally application development).
+          I’m Jeffrey, a sophomore at Dartmouth College studying Computer
+          Science and Mathematics. I am interested in <span>algorithms</span>,
+          <span>opmtimization</span>, and <span>machine learning</span> (and
+          occasionally application development).
         </p>
       </div>
       <div id="projects"></div>
       <div id="work-experience">
-        <img src="/img/work/bull_back.png" class="bull-back">
-        <img src="/img/work/musc.png" class="musc">
-        <img src="/img/work/787.png" class="plane">
-        <img src="/img/work/boeing.png" class="boeing">
-        <img src="/img/work/bull_head.png" class="bull-head">
-        <img src="/img/work/shapes.png" class="shapes">
+        <img src="/img/work/bull_back.png" class="bull-back" />
+        <img src="/img/work/musc.png" class="musc" />
+        <img src="/img/work/787.png" class="plane" />
+        <img src="/img/work/boeing.png" class="boeing" />
+        <img src="/img/work/bull_head.png" class="bull-head" />
+        <img src="/img/work/shapes.png" class="shapes" />
         <h2 id="work-experience-title">WORK EXPERIENCE</h2>
         <div id="aristocrat" class="work-container">
-          <img src="/img/work/logos/aristocrat.jpg" class="work-img">
+          <img src="/img/work/logos/aristocrat.jpg" class="work-img" />
           <div class="work-text">
             <h3 class="work-title">Aristocrat</h3>
             <p class="work-description">Software Engineering Intern</p>
           </div>
         </div>
         <div id="musc" class="work-container">
-          <img src="/img/work/logos/musc.jpg" class="work-img">
+          <img src="/img/work/logos/musc.jpg" class="work-img" />
           <div class="work-text">
             <h3 class="work-title">Medical University of South Carolina</h3>
             <p class="work-description">Research Intern</p>
           </div>
         </div>
         <div id="boeing" class="work-container">
-          <img src="/img/work/logos/boeing.jpg" class="work-img">
+          <img src="/img/work/logos/boeing.jpg" class="work-img" />
           <div class="work-text">
             <h3 class="work-title">Boeing</h3>
             <p class="work-description">Data Science Intern</p>
@@ -109,9 +264,21 @@
     <footer class="hide">
       <nav>
         <ul>
-          <li class="linkedin"><a href="https://www.linkedin.com/in/jeffreyhaisong" target="_blank"><i class="fa-brands fa-linkedin nav-button"></i></a></li>
-          <li class="mail"><a href="mailto:jeffrey.song.27@dartmouth.edu" target="_blank"><i class="fa-regular fa-envelope nav-button"></i></a></li>
-          <li class="github"><a href="https://github.com/jhaiso" target="_blank"><i class="fa-brands fa-github nav-button"></i></a></li>
+          <li class="linkedin">
+            <a href="https://www.linkedin.com/in/jeffreyhaisong" target="_blank"
+              ><i class="fa-brands fa-linkedin nav-button"></i
+            ></a>
+          </li>
+          <li class="mail">
+            <a href="mailto:jeffrey.song.27@dartmouth.edu" target="_blank"
+              ><i class="fa-regular fa-envelope nav-button"></i
+            ></a>
+          </li>
+          <li class="github">
+            <a href="https://github.com/jhaiso" target="_blank"
+              ><i class="fa-brands fa-github nav-button"></i
+            ></a>
+          </li>
         </ul>
       </nav>
     </footer>
