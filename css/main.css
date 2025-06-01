@@ -551,12 +551,26 @@ main {
 #agt-description {
     position: absolute;
     top: 22%;
-    left: 23%;
+    left: 24%;
     width: 12%;
     
     font-weight: 100;
     font-size: 1rem;
     color: #fff;
+}
+
+#agt-img {
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    width: 12vw;
+}
+
+#agt-tech {
+    position: absolute;
+    left: 55%;
+    top: 25%;
+    width: 30vw;
 }
 
 #stock-title {
@@ -581,6 +595,20 @@ main {
     color: #fff;
 }
 
+#stock-img {
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    width: 6vw;
+}
+
+#stock-tech {
+    position: absolute;
+    left: 55%;
+    top: 25%;
+    width: 29.27vw;;
+}
+
 #soninav-title {
     position: absolute;
     top: 68%;
@@ -594,11 +622,25 @@ main {
 #soninav-description {
     position: absolute;
     top: 79%;
-    left: 11.5%;
+    left: 10%;
     width: 11.75%;
 
     font-weight: 100;
     color: #fff;
+}
+
+#soninav-img {
+    position: absolute;
+    top: 72%;
+    left: 24%;
+    width: 15vw;
+}
+
+#soninav-tech{
+    position: absolute;
+    left: 59.5%;
+    top: 14%;
+    width: 24.28vw;
 }
 
 
