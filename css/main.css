@@ -341,22 +341,14 @@ main {
     padding: 20px 10px 0 10px;
 }
 
-#dartmouth {
-    position: absolute;
-    z-index: -1;
-    width: 80vh;
-
-    left: 43%;
-    top: 30%;
-}
 
 #tower {
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     width: 12vw;
 
     left: 43%;
-    top: 15%;
+    top: 25%;
 }
 
 #about-title {
