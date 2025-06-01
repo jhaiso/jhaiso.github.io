@@ -32,6 +32,7 @@ header {
     top: 0;
     bottom: 0;
     width: 100%;
+    margin-top: -4.1rem;
 }
 
 header nav {
@@ -103,7 +104,7 @@ main {
     position: relative;
     width: 100vw;
     overflow: hidden;
-    transform: translateY(-4rem);
+    /* transform: translateY(-4rem); */
     background-color: rgb(6, 21, 35);
 }
 
@@ -529,7 +530,7 @@ main {
 #projects-title {
     position: absolute;
     top: 50%;
-    left: 4%;    
+    left: 7%;    
 
     transform: translate(-50%, -50%) rotate(90deg);
     
@@ -541,7 +542,7 @@ main {
 #agt-title {
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 14%;
 
     font-weight: 100;
     font-size: 4rem;
@@ -554,7 +555,7 @@ main {
 #agt-description {
     position: absolute;
     top: 22%;
-    left: 24%;
+    left: 28%;
     width: 14%;
     
     font-weight: 100;
@@ -565,7 +566,7 @@ main {
 #agt-img {
     position: absolute;
     top: 21%;
-    left: 10%;
+    left: 14%;
     width: 12vw;
 }
 
@@ -579,7 +580,7 @@ main {
 #stock-title {
     position: absolute;
     top: 35%;
-    left: 10%;
+    left: 14%;
     width: 45vw;
     line-height: 5rem;
 
@@ -595,7 +596,7 @@ main {
 #stock-description {
     position: absolute;
     top: 55%;
-    left: 17%;
+    left: 21%;
     width: 20%;
 
     font-weight: 100;
@@ -606,7 +607,7 @@ main {
 #stock-img {
     position: absolute;
     top: 53%;
-    left: 10%;
+    left: 14%;
     width: 6vw;
 }
 
@@ -620,7 +621,7 @@ main {
 #soninav-title {
     position: absolute;
     top: 68%;
-    left: 10%;
+    left: 14%;
 
     font-weight: 100;
     font-size: 4rem;
@@ -633,7 +634,7 @@ main {
 #soninav-description {
     position: absolute;
     top: 79%;
-    left: 10%;
+    left: 14%;
     width: 11.75%;
 
     font-weight: 100;
@@ -644,7 +645,7 @@ main {
 #soninav-img {
     position: absolute;
     top: 72%;
-    left: 24%;
+    left: 28%;
     width: 15vw;
 }
 
@@ -679,7 +680,6 @@ footer nav {
     padding: 0 2rem;
     padding-top: 0.5rem;
     bottom: 0;
-    /* border-top: 1px solid rgb(255, 255, 255, 0.1); */
 
     display: flex;
     justify-content: center;

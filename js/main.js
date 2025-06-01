@@ -270,3 +270,171 @@ gsap.from(".shapes", {
         scrub: 3,
     }
 });
+
+/* ================ PROFILE GSAP ANIMATION ====================== */
+
+gsap.from("#agt-title", {
+    opacity: 0,
+    y: 200,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#agt-title",
+        start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#agt-description", {
+    opacity: 0,
+    x: 300,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#agt-title",
+        start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#agt-img", {
+    opacity: 0,
+    y: -100,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#agt-title",
+        start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#agt-tech", {
+    opacity: 0,
+    ease: "power1.in",
+    duration: 10,
+    scrollTrigger: {
+        trigger: "#agt-title",
+        start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#stock-title", {
+    opacity: 0,
+    y: 200,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#stock-title",
+        start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#stock-description", {
+    opacity: 0,
+    x: 300,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#stock-title",
+        start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#stock-img", {
+    opacity: 0,
+    y: -100,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#stock-title",
+        start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#stock-tech", {
+    opacity: 0,
+    ease: "power1.in",
+    duration: 10,
+    scrollTrigger: {
+        trigger: "#stock-title",
+        start: () => `top ${0.95 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.75 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#soninav-title", {
+    opacity: 0,
+    y: 200,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#soninav-title",
+        start: () => `top ${1 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.9 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#soninav-description", {
+    opacity: 0,
+    x: 300,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#soninav-title",
+        start: () => `top ${1 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.9 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#soninav-img", {
+    opacity: 0,
+    y: 200,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#soninav-title",
+        start: () => `top ${1 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.9 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#soninav-tech", {
+    opacity: 0,
+    ease: "power1.in",
+    duration: 10,
+    scrollTrigger: {
+        trigger: "#soninav-title",
+        start: () => `top ${1 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.9 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
+
+gsap.from("#projects-title", {
+    opacity: 0,
+    y: 300,
+    ease: "power3.inOut",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#soninav-title",
+        start: () => `top ${1 * window.innerHeight}px`, // 70vh
+        end: () => `top ${0.9 * window.innerHeight}px`,   // 30vh
+        scrub: 3,
+    }
+});
